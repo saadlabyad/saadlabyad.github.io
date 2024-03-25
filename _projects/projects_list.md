@@ -1,8 +1,8 @@
 # aslsd
 Parametric estimation of multivariate Hawkes processes with general kernels. Under active development.
 
-Description
------------
+##Description
+  -----------
 
 Linear multivariate Hawkes processes (MHP) are a fundamental class of point processes with self-excitation. When estimating parameters for these processes, a difficulty is that the two main error functionals, the log-likelihood and the least squares error (LSE), as well as the evaluation of their
 gradients, have a quadratic complexity in the number of observed events. In practice, this prohibits
@@ -19,8 +19,8 @@ This code implements
 * exact cluster based simulation of MHP;
 * goodness-of-fit tests.
 
-Link
-------------
+##Link
+  ------------
 `The aslsd package. <https://github.com/saadlabyad/aslsd>`_
 
 
