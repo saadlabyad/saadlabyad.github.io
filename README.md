@@ -3,7 +3,7 @@ I am a finishing PhD student in Mathematics at the University of Oxford, supervi
 My current research interests lie in statistical learning of point processes, and their applications to study high frequency financial data.
 
 ## Education
-- PhD, Mathematics (_University of Oxford_ )
-- MSc, Mathematical & Computational Finance (_University of Oxford_ )
-- MEng, Applied Mathematics (_Ecole Centrale Paris_ )
-- Classes Preparatoires, Mathematics and Physics (_Lycee Massena_ )
+- PhD, Mathematics ( _University of Oxford_ )
+- MSc, Mathematical & Computational Finance ( _University of Oxford_ )
+- MEng, Applied Mathematics ( _Ecole Centrale Paris_ )
+- Classes Preparatoires, Mathematics and Physics ( _Lycee Massena_ )
