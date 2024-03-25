@@ -1,3 +1,9 @@
+---
+layout: page
+title: Teaching
+permalink: /teaching/
+---
+
 Tutor and Teaching Assistant (TA) for different courses during my PhD, in addition to other academic roles.
 
 # University of Oxford
