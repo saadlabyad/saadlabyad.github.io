@@ -2,3 +2,23 @@
 ---
 
 @import "{{ site.theme }}";
+.nav-links {
+    float: right; /* Align links to the right */
+}
+
+.nav-links li {
+    display: inline-block; /* Display links horizontally */
+    margin-left: 20px; /* Add some space between links */
+}
+
+.nav-links li a {
+    font-family: Arial, sans-serif; /* Set font family */
+    font-size: 16px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set text color */
+}
+
+.nav-links li a:hover {
+    color: #007bff; /* Change text color on hover */
+}
