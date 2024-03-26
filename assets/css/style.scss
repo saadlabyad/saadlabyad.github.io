@@ -25,6 +25,9 @@
 
 /* Add this CSS to your existing CSS file */
 .home-icon {
+    position: absolute;
+    left: 180px;
+    top: 350px; /* Adjust the top position if needed */
     width: 50px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
 }
@@ -45,16 +48,34 @@
     margin-left: 0; /* Remove default margin */
 }
 
-.social-media-icons {
+.social-media-git-icon {
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 480px; /* Adjust top position to align with the profile picture */
-    text-align: center; /* Center align icons */
-}
-
-.social-media-icons img {
+    left: 180px;
+    top: 400px; /* Adjust top position to align with the profile picture */
     width: 40px; /* Set width for all icons */
     height: auto; /* Maintain aspect ratio */
-    margin: 0 10px; /* Adjust spacing between icons */
+}
+
+.social-media-linkedin-icon {
+    position: absolute;
+    left: 190px;
+    top: 400px; /* Adjust top position to align with the profile picture */
+    width: 40px; /* Set width for all icons */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.social-media-scholar-icon {
+    position: absolute;
+    left: 200px;
+    top: 400px; /* Adjust top position to align with the profile picture */
+    width: 40px; /* Set width for all icons */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.social-media-ssrn-icon {
+    position: absolute;
+    left: 210px;
+    top: 400px; /* Adjust top position to align with the profile picture */
+    width: 40px; /* Set width for all icons */
+    height: auto; /* Maintain aspect ratio */
 }
