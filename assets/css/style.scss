@@ -31,8 +31,9 @@
 
 /* Add the new CSS rules */
 .profile-picture {
-    float: left;
-    margin-right: 20px; /* Adjust margin as needed */
+    position: absolute;
+    left: 0;
+    top: 0; /* Adjust the top position if needed */
     border-radius: 50%; /* Optional: add rounded corners to the image */
     width: 100px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
