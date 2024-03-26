@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <style>
         /* Add your CSS styles here */
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
         .profile-picture {
             width: 300px; /* Set the width of the profile picture */
             height: auto; /* Maintain aspect ratio */
             margin-bottom: 20px; /* Add some space below the picture */
-            float: left; /* Float the profile picture to the left */
         }
 
         .social-media-icons {
-            clear: both; /* Clear the floated elements */
             margin-top: 20px; /* Add some space above the icons */
             text-align: center; /* Center-align the icons */
         }
@@ -48,13 +52,15 @@
     </nav>
 </header>
 <main id="content" class="main-content" role="main">
-    <img src="assets/img/saad_labyad_profile.jpg" alt="Profile Picture" class="profile-picture">
+    <div class="profile-container">
+        <img src="assets/img/saad_labyad_profile.jpg" alt="Profile Picture" class="profile-picture">
 
-    <div class="social-media-icons">
-        <a href="https://github.com/saadlabyad" target="_blank"><img src="assets/img/github-logo.png" alt="GitHub"></a>
-        <a href="https://www.linkedin.com/in/saad-labyad" target="_blank"><img src="assets/img/linkedin-logo.png" alt="LinkedIn"></a>
-        <a href="https://scholar.google.com/citations?user=ZNYWDV8AAAAJ&hl=en" target="_blank"><img src="assets/img/scholar-logo.png" alt="Google Scholar"></a>
-        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4926157" target="_blank"><img src="assets/img/ssrn-logo.png" alt="SSRN"></a>
+        <div class="social-media-icons">
+            <a href="https://github.com/saadlabyad" target="_blank"><img src="assets/img/github-logo.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/saad-labyad" target="_blank"><img src="assets/img/linkedin-logo.png" alt="LinkedIn"></a>
+            <a href="https://scholar.google.com/citations?user=ZNYWDV8AAAAJ&hl=en" target="_blank"><img src="assets/img/scholar-logo.png" alt="Google Scholar"></a>
+            <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4926157" target="_blank"><img src="assets/img/ssrn-logo.png" alt="SSRN"></a>
+        </div>
     </div>
 
     <p>
