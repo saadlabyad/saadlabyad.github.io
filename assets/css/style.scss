@@ -44,3 +44,17 @@
 .profile-text {
     margin-left: 0; /* Remove default margin */
 }
+
+.social-media-icons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 480px; /* Adjust top position to align with the profile picture */
+    text-align: center; /* Center align icons */
+}
+
+.social-media-icons img {
+    width: 40px; /* Set width for all icons */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Adjust spacing between icons */
+}
