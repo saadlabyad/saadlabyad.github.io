@@ -3,51 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Saad Labyad</title>
     <link rel="stylesheet" href="/assets/css/style.css">
-    <style>
-        /* Add your CSS styles here */
-        .profile-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 20px; /* Adjust margin from the top if needed */
-            margin-left: 20px; /* Adjust margin from the left */
-        }
-
-        .profile-picture {
-            width: 300px; /* Set the width of the profile picture */
-            height: auto; /* Maintain aspect ratio */
-            margin-bottom: 20px; /* Add some space below the picture */
-        }
-
-        .social-media-icons {
-            margin-top: 20px; /* Add some space above the icons */
-            text-align: center; /* Center-align the icons */
-        }
-
-        .social-media-icons a {
-            display: inline-block; /* Ensure the icons are displayed inline */
-            margin: 0 10px; /* Adjust the margin between icons */
-        }
-
-        .social-media-icons img {
-            width: auto; /* Set the width for all icons */
-            height: 40px; /* Maintain aspect ratio */
-        }
-
-        .social-media-icons a:hover img {
-            filter: brightness(0.8) saturate(150%) hue-rotate(-20deg); /* Adjust the filter values for the desired effect */
-        }        
-
-        /* Add more styles as needed */
-    </style>
 </head>
 <body>
+
 <header class="page-header" role="banner">
     <nav>
-        <a href="https://saadlabyad.github.io/"><img src="/assets/img/home-icon.png" alt="Home" class="home-icon"></a>
-        <h1 class="project-name">Saad Labyad</h1>
+        <a href="https://saadlabyad.github.io/">
+            <img src="/assets/img/home-icon.png" alt="Home" class="home-icon">
+        </a>
+        <h1 class="project-name" style="margin: 0; flex: 1;">Saad Labyad</h1>
         <ul class="nav-links">
             <li><a href="/files/saad_labyad_cv.pdf">CV</a></li>
             <li><a href="/projects.html">Projects</a></li>
@@ -57,33 +23,63 @@
         </ul>
     </nav>
 </header>
-<main id="content" class="main-content" role="main">
-    <div class="profile-container">
-        <img src="assets/img/saad_labyad_profile.jpg" alt="Profile Picture" class="profile-picture">
 
-        <div class="social-media-icons">
-            <a href="https://github.com/saadlabyad" target="_blank"><img src="assets/img/github-logo.png" alt="GitHub"></a>
-            <a href="https://www.linkedin.com/in/saad-labyad" target="_blank"><img src="assets/img/linkedin-logo.png" alt="LinkedIn"></a>
-            <a href="https://scholar.google.com/citations?user=ZNYWDV8AAAAJ&hl=en" target="_blank"><img src="assets/img/scholar-logo.png" alt="Google Scholar"></a>
-            <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4926157" target="_blank"><img src="assets/img/ssrn-logo.png" alt="SSRN"></a>
+<main id="content" class="main-content" role="main">
+
+    <div class="profile-section">
+        <div class="profile-left">
+            <img src="/assets/img/saad_labyad_profile.png" alt="Saad Labyad" class="profile-picture">
+            <div class="social-media-icons">
+                <a href="https://github.com/saadlabyad" target="_blank" rel="noopener">
+                    <img src="/assets/img/github-logo.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/saad-labyad" target="_blank" rel="noopener">
+                    <img src="/assets/img/linkedin-logo.png" alt="LinkedIn">
+                </a>
+                <a href="https://scholar.google.com/citations?user=ZNYWDV8AAAAJ&hl=en" target="_blank" rel="noopener">
+                    <img src="/assets/img/scholar-logo.png" alt="Google Scholar">
+                </a>
+                <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4926157" target="_blank" rel="noopener">
+                    <img src="/assets/img/ssrn-logo.png" alt="SSRN">
+                </a>
+            </div>
+        </div>
+
+        <div class="profile-right">
+            <p>
+                I hold a PhD in Mathematics from the University of Oxford, where I was supervised by
+                Professor <a href="https://www.maths.ox.ac.uk/people/samuel.cohen" target="_blank" rel="noopener">Samuel N. Cohen</a>
+                and Professor <a href="https://www.maths.ox.ac.uk/people/alvaro.cartea" target="_blank" rel="noopener">Álvaro Cartea</a>,
+                under the Ioan and Rosemary James scholarship, with support from the
+                <a href="https://www.turing.ac.uk" target="_blank" rel="noopener">Alan Turing Institute</a>.
+            </p>
+
+            <p>
+                My research focuses on statistical learning of point processes — in particular Hawkes processes
+                and their non-stationary extensions — with applications to high-frequency financial data,
+                including mid-price modelling and market impact in equity limit order books.
+            </p>
+
+            <p>
+                I am currently seeking quantitative research and quantitative trading roles at hedge funds,
+                proprietary trading firms, and asset managers.
+            </p>
+
+            <h2>Education</h2>
+            <ul>
+                <li>PhD, Mathematics — University of Oxford</li>
+                <li>MSc, Mathematical &amp; Computational Finance — University of Oxford</li>
+                <li>MEng, Applied Mathematics — École Centrale Paris</li>
+                <li>Classes Préparatoires, Mathematics and Physics — Lycée Masséna</li>
+            </ul>
         </div>
     </div>
 
-    <p>
-        I am a finishing PhD student in Mathematics at the University of Oxford, supervised by Professor Samuel N. Cohen and Professor Álvaro Cartea, under the Ioan and Rosemary James scholarship.
-    </p>
-    
-    <p>
-        My current research interests lie in statistical learning of point processes, and their applications to study high frequency financial data.
-    </p>
-
-    <h2>Education</h2>
-    <ul>
-        <li>PhD, Mathematics (University of Oxford)</li>
-        <li>MSc, Mathematical & Computational Finance (University of Oxford)</li>
-        <li>MEng, Applied Mathematics (Ecole Centrale Paris)</li>
-        <li>Classes Preparatoires, Mathematics and Physics (Lycee Massena)</li>
-    </ul>
 </main>
+
+<footer class="site-footer">
+    <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+</footer>
+
 </body>
 </html>
