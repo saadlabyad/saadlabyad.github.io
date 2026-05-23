@@ -218,3 +218,251 @@
     color: #159957;
     font-weight: 600;
 }
+
+/* =========================================================
+   BLOG INDEX PAGE
+   ========================================================= */
+
+.blog-intro {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 36px;
+}
+
+.blog-category-section {
+    margin-bottom: 48px;
+}
+
+.blog-category-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.blog-category-header h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.blog-category-icon {
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+.blog-category-header--football { background: #159957; }
+.blog-category-header--music    { background: #6a3d9a; }
+.blog-category-header--finance  { background: #1a6fa8; }
+
+.post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post-list-item {
+    border-left: 3px solid #e0e0e0;
+    padding: 10px 16px;
+    margin-bottom: 12px;
+    background: #fafafa;
+    border-radius: 0 4px 4px 0;
+    transition: border-color 0.2s;
+}
+
+.post-list-item:hover {
+    border-left-color: #159957;
+}
+
+.post-list-item-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.post-list-title {
+    font-weight: 700;
+    font-size: 0.98rem;
+    color: #159957;
+    text-decoration: none;
+}
+
+.post-list-title:hover {
+    text-decoration: underline;
+}
+
+.post-list-date {
+    font-size: 0.82rem;
+    color: #888;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.post-list-description {
+    font-size: 0.88rem;
+    color: #555;
+    margin: 4px 0 0;
+}
+
+.post-list-empty {
+    font-size: 0.92rem;
+    color: #999;
+    font-style: italic;
+    padding-left: 16px;
+}
+
+/* =========================================================
+   BLOG POST PAGE
+   ========================================================= */
+
+.post-header {
+    margin-bottom: 32px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.post-category-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.post-category-badge--football { background: #159957; }
+.post-category-badge--music    { background: #6a3d9a; }
+.post-category-badge--finance  { background: #1a6fa8; }
+
+.post-title {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 8px 0 6px;
+    line-height: 1.25;
+}
+
+.post-meta {
+    font-size: 0.88rem;
+    color: #888;
+    margin: 0;
+}
+
+/* Post body typography */
+.post-content h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    color: #222;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4px;
+}
+
+.post-content h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.post-content p {
+    line-height: 1.75;
+    margin-bottom: 16px;
+    color: #2a2a2a;
+}
+
+.post-content ul,
+.post-content ol {
+    padding-left: 24px;
+    margin-bottom: 16px;
+}
+
+.post-content li {
+    line-height: 1.7;
+    margin-bottom: 4px;
+}
+
+/* Tables */
+.post-content table {
+    border-collapse: collapse;
+    width: auto;
+    margin: 24px 0;
+    font-size: 0.92rem;
+}
+
+.post-content th,
+.post-content td {
+    border: 1px solid #ddd;
+    padding: 7px 16px;
+    text-align: left;
+}
+
+.post-content th {
+    background: #f0f0f0;
+    font-weight: 700;
+}
+
+.post-content tr:nth-child(even) td {
+    background: #fafafa;
+}
+
+/* Figures */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 24px auto;
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+}
+
+/* Code blocks */
+.post-content pre {
+    background: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    padding: 14px 18px;
+    overflow-x: auto;
+    font-size: 0.88rem;
+    line-height: 1.55;
+    margin: 20px 0;
+}
+
+.post-content code {
+    background: #f0f0f0;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 0.88em;
+}
+
+.post-content pre code {
+    background: none;
+    padding: 0;
+}
+
+/* Back link */
+.post-back {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.post-back a {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #159957;
+    text-decoration: none;
+}
+
+.post-back a:hover {
+    text-decoration: underline;
+}
